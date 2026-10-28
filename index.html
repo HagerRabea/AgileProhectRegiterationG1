@@ -45,11 +45,12 @@ footer{text-align:center;color:var(--gray);font-size:12px;padding:24px}
 
 <section id="reg">
 <div class="card"><h2>Team registration</h2><p class="sub">One form per team. Each idea can be taken by at most two teams; once full, it disappears from the list.</p>
-<div id="regmsg"></div>
+
 <form onsubmit="return false" id="f" autocomplete="off">
 <div class="g"><div><label>Team number</label><input id="tn" type="number" min="1" placeholder="e.g. 7"></div><div><label>Team name</label><input id="tm" placeholder="Team name"></div><div><label>Lab group / section</label><input id="lab" placeholder="e.g. Section 2"></div></div>
 <h3>Team members (4–5)</h3><div id="mem"></div>
 <h3>Project idea</h3><label>Select your idea</label><select id="idea"></select>
+ <div id="regmsg"></div>
 <div style="margin-top:20px"><button class="btn" id="go">Submit registration</button></div></form></div></section>
 
 <section id="mine" class="hide"><div class="card"><h2>My registration</h2><p class="sub">Your team’s record, saved to this account. Download it as an Excel file.</p><div id="mybody"></div></div></section>
